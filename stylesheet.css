@@ -42,6 +42,7 @@
 .title {
     background-color: burlywood;
     color: rgb(22, 41, 22);
+    opacity: 0.5;
     font-size: 170px;
     position: relative;
     top: -20%;
