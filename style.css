@@ -1,0 +1,61 @@
+
+* {
+    background-color:rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.BG_img {
+    height: 770px;
+    width: 1300px;
+    color:rgb(0, 0, 0);
+    border: 20px solid black;
+    background: url(./pictures/kongefugl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: inline-block;
+}
+
+.logo_img {
+    background-color: rgb(0, 0, 0);
+    border: 15px solid rgb(88, 152, 71);
+    float: left;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}
+
+.info-text {
+    background-color: rgba(0, 0, 0, 0);
+    width: 530px;
+    float: left;
+    position: relative;
+    top: 10%;
+}
+
+.title {
+    background-color: burlywood;
+    color: rgb(22, 41, 22);
+    font-size: 170px;
+    position: relative;
+    top: -20%;
+    left: 104%;
+}
+
+.textbox {
+    background-color: rgba(189, 157, 116, 0.178);
+    color: rgb(245, 255, 111);
+    font-family: "Georgia", Times, serif;
+    font-size: 25px;
+    padding: 20px;
+    position: relative;
+    top: 10%;
+    left: 104%;
+    clear: left;
+}
