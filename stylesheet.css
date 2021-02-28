@@ -104,6 +104,7 @@ ul li a:hover {
     text-align: center;
     float: none;
     margin: 15px auto;
+    margin-bottom: 20px;
     width: 100%;
     z-index: 2;
     padding: 2px;
@@ -115,7 +116,11 @@ ul li a:hover {
     color: rgb(255, 255, 255);
     font-family: "Georgia", Times, serif;
     font-size: 25px;
+    
     margin: 0px auto;
-    padding: 100px;
-    width: 1000px;
+    padding: 70px;
+    width: 1380px;
+    height: 520px;
+    border: 10px solid rgb(186, 186, 186);
+    border-radius: 10px;
 }
