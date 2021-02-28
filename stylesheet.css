@@ -102,23 +102,22 @@ ul li a:hover {
 .title {
     background:rgb(38, 38, 38);
     color: rgb(255, 255, 255);
-    font-size: 170px;
+    font-size: 128px;
     text-align: center;
     float: none;
-    margin: 20px auto;
+    margin: 15px auto;
     width: 100%;
     z-index: 2;
-    padding: 1%;
+    padding: 2px;
 
 }
 
 .textbox {
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(99, 99, 99);
     color: rgb(255, 255, 255);
     font-family: "Georgia", Times, serif;
     font-size: 25px;
-    padding: 20px;
-    top: 10%;
-    left: 104%;
-    width: 100%;
+    margin: 0px auto;
+    padding: 100px;
+    width: 1000px;
 }
