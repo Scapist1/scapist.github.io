@@ -37,10 +37,8 @@
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
-
-    color:rgba(255, 255, 255, 0);
-    background:rgb(0, 0, 0);
 }
+
 
 .banner ul li a {
     text-decoration: none;
@@ -48,14 +46,18 @@
     letter-spacing: 20vw;
     list-style: none;
     font-family: arial;
-    color: #cbcbcb;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(184, 36, 36);
     letter-spacing: 0.15rem;
+    
 }
 
-.banner ul li a:hover {
-    color: rgb(255, 255, 255);
+.banner ul:hover {
+    color: rgb(0, 0, 0);
 }
+
+
+
 /* menu style "end" */
 
 
