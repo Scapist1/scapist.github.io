@@ -9,47 +9,37 @@
 /* menu style "start" */
 
 .banner {
-    display: flex;
-    width: 100%;
-    height: 145px;
+    display: inline-flex;
+    width: 100vw;
+    height: 20vh;
     background-color: white;
     z-index: 20;
 }
 
 .banner nav {
-    width: 42%;
-    height: 145px;
+    width: 38vw;
+    height: 20vh;
     background:rgb(0, 0, 0);
 }
 
 .banner ul {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     background:rgba(0, 0, 0, 0);
     color:rgba(0, 0, 0, 0);
 }
 
-.banner ul p {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 12%;
-    padding-top: 11%;
-    padding-left: 13%;
-    font-size: 20px;
-    letter-spacing: 1rem;
-    list-style: none;
-    background:rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
 .banner ul li {
-    margin-left: 33%;
-    margin-bottom: 2%;
-    color:white;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 1.2vh;
+    color:rgba(255, 255, 255, 0);
     background:rgb(0, 0, 0);
 }
 
 .banner ul li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 100%;
     font-family: arial;
     color: #cbcbcb;
     background-color: rgba(255, 0, 0, 0);
@@ -62,28 +52,18 @@
 /* menu style "end" */
 
 .banner h1 {  
-    display: block;
-    width: 58%;
-    margin-left: 6%;
-    margin-top: 16%;
-    margin-bottom: 17%;
-    padding-left: 3%;
-    text-align: left;
-    color: rgb(255, 255, 255); 
+    width: 58vw;
+    height: 4vh;
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 2vh;
+    letter-spacing: 3vw;
+    list-style: none;
+    background:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .BG_img {
-    display: inline;
-    z-index: 0;
-    height: 700px;
-    width: 1000px;
-    color:rgb(0, 0, 0);
-    border: 20px solid black;
-    background: url(./img/kongefugl.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 
 }
 
