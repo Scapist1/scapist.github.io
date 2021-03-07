@@ -10,37 +10,43 @@
 
 .banner {
     display: inline-flex;
-    width: 100vw;
-    height: 20vh;
+    width: 120vw;
+    height: 160px;
     background-color: white;
     z-index: 20;
 }
 
 .banner nav {
     width: 38vw;
-    height: 20vh;
+    min-width: 85px;
+    height: 160px;
     background:rgb(0, 0, 0);
 }
 
 .banner ul {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background:rgba(0, 0, 0, 0);
     color:rgba(0, 0, 0, 0);
 }
 
 .banner ul li {
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-bottom: 1.2vh;
+    margin-left: 4vw;
+    margin-right: 15vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color:rgba(255, 255, 255, 0);
     background:rgb(0, 0, 0);
 }
 
 .banner ul li a {
     text-decoration: none;
-    font-size: 100%;
+    font-size: 14px;
+    letter-spacing: 20vw;
     font-family: arial;
+    align-items: center;
     color: #cbcbcb;
     background-color: rgba(255, 0, 0, 0);
     letter-spacing: 0.15rem;
@@ -56,8 +62,8 @@
     height: 4vh;
     padding-top: 3vh;
     text-align: center;
-    font-size: 2vh;
-    letter-spacing: 3vw;
+    font-size: 16px;
+    letter-spacing: 4vw;
     list-style: none;
     background:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
