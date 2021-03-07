@@ -14,17 +14,18 @@
     height: 160px;
     background-color: white;
     z-index: 20;
+
 }
 
 .banner nav {
+    z-index: 2;
     width: 38vw;
-    min-width: 85px;
+    min-width: 75px;
     height: 160px;
     background:rgb(0, 0, 0);
 }
 
 .banner ul {
-    
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -33,10 +34,10 @@
 }
 
 .banner ul li {
-    margin-left: 4vw;
-    margin-right: 15vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+
     color:rgba(255, 255, 255, 0);
     background:rgb(0, 0, 0);
 }
@@ -45,8 +46,8 @@
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 20vw;
+    list-style: none;
     font-family: arial;
-    align-items: center;
     color: #cbcbcb;
     background-color: rgba(255, 0, 0, 0);
     letter-spacing: 0.15rem;
@@ -57,20 +58,29 @@
 }
 /* menu style "end" */
 
-.banner h1 {  
-    width: 58vw;
-    height: 4vh;
-    padding-top: 3vh;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 4vw;
-    list-style: none;
-    background:rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+
+.banner img {
+    position: relative;
+    z-index: 1; 
+    width: 80vw;
+    height: 160px;
 }
 
-.BG_img {
-
+ .banner h1 {  
+    position: absolute;
+    width: 10vw;
+    top: 2px;
+    height: 5px;
+    left: 5vw;
+    padding-top: 7px;
+    padding-left: 38vw;
+    z-index: 40;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 5vw;
+    list-style: none;
+    background:rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
 }
 
 .logo_img {
