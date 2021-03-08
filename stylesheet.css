@@ -154,7 +154,8 @@
     position: relative;
     margin-top: 1vw;
     z-index: 1;
-    width: 100%;
+    width: 100vw;
+    margin-left: 4vw;
     max-width: 500px;
     min-width: 200px;
     background-color: rgb(255, 0, 0);
